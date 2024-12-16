@@ -4,10 +4,10 @@
 
   <!-- since 2.2.1 -->
   <rule>
-    <key>EC5001</key>
+    <key>GCI5001</key>
     <severity>MINOR</severity>
     <name><![CDATA[Fat App]]></name>
-    <internalKey><![CDATA[EC5001]]></internalKey>
+    <internalKey><![CDATA[GCI5001]]></internalKey>
     <description><![CDATA[<p>Using &quot;multiDexEnabled true&quot; goes against the overall reduction of the weight of the apps and hence must be avoided.</p>
 <p>Example of violations:</p>
 <pre><code>    android {

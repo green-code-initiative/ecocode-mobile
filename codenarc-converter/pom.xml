@@ -16,7 +16,7 @@
   <url>https://github.com/green-code-initiative/ecocode-android/tree/main/codenarc-converter</url>
 
   <properties>
-    <codenarc.version>2.2.5</codenarc.version>
+    <codenarc.version>3.5.0</codenarc.version>
     <auto.version>1.8.2</auto.version>
     <maven.deploy.skip>true</maven.deploy.skip>
   </properties>

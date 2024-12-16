@@ -29,14 +29,14 @@ import org.codenarc.util.AstUtil
  *
  * @author Leboulanger Mickael
  */
-class EC5001 extends AbstractAstVisitorRule {
+class GCI5001 extends AbstractAstVisitorRule {
 
-    String name = 'EC5001'
+    String name = 'GCI5001'
     int priority = 2
-    Class astVisitorClass = EC5001AstVisitor
+    Class astVisitorClass = GCI5001AstVisitor
 }
 
-class EC5001AstVisitor extends AbstractAstVisitor {
+class GCI5001AstVisitor extends AbstractAstVisitor {
 
     @Override
     void visitMethodCallExpression(MethodCallExpression methodCallExpression) {

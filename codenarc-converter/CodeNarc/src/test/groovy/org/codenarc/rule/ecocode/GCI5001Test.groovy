@@ -19,16 +19,16 @@ import org.junit.Test
 import org.codenarc.rule.AbstractRuleTestCase
 
 /**
- * Tests for EC5001 (Fat App Rule)
+ * Tests for GCI5001 (Fat App Rule)
  *
  * @author Leboulanger Mickael
  */
-class EC5001Test extends AbstractRuleTestCase<EC5001> {
+class GCI5001Test extends AbstractRuleTestCase<GCI5001> {
 
     @Test
     void test_RuleProperties() {
         assert rule.priority == 2
-        assert rule.name == 'EC5001'
+        assert rule.name == 'GCI5001'
     }
 
     @Test
@@ -212,8 +212,8 @@ class EC5001Test extends AbstractRuleTestCase<EC5001> {
     }
 
     @Override
-    protected EC5001 createRule() {
-        new EC5001()
+    protected GCI5001 createRule() {
+        new GCI5001()
     }
     private String getViolationMessage() {
         return 'Using "multiDexEnabled true" goes against the overall reduction of the weight of the apps and hence must be avoided.'

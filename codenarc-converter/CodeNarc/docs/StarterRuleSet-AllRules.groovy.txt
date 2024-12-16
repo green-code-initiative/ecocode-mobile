@@ -87,7 +87,7 @@ ruleset {
     DuplicateNumberLiteral 
     DuplicateSetValue 
     DuplicateStringLiteral 
-    EC5001
+    GCI5001
     ElseBlockBraces 
     EmptyCatchBlock 
     EmptyClass

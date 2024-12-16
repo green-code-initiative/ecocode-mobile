@@ -167,7 +167,7 @@ title: CodeNarc - Rule Index
 * [DuplicateStringLiteral](./codenarc-rules-dry.html#duplicatestringliteral-rule)
 
 ## [Ecocode](./codenarc-rules-ecocode.html)
-* [EC5001](./codenarc-rules-ecocode.html#EC5001-rule)
+* [GCI5001](./codenarc-rules-ecocode.html#GCI5001-rule)
 
 ## [Enhanced](./codenarc-rules-enhanced.html)
 * [CloneWithoutCloneable](./codenarc-rules-enhanced.html#clonewithoutcloneable-rule)

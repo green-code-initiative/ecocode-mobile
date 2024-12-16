@@ -25,7 +25,8 @@ import org.sonarsource.analyzer.commons.annotations.DeprecatedRuleKey;
  * Check the call of the method "newWakeLock" of "android.os.PowerManager".
  * Reports an issue if found.
  */
-@Rule(key = "EC507")
+@Rule(key = "GCI507")
+@DeprecatedRuleKey(repositoryKey = "ecocode-android-java", ruleKey = "EC507")
 @DeprecatedRuleKey(repositoryKey = "ecoCode-java", ruleKey = "EIDL004")
 public class KeepCpuOnRule extends SpecificMethodCheck {
 

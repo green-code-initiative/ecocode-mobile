@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Define CodeNarc version
-codenarcVersion="2.2.5"
+codenarcVersion="3.5.0"
 
 # Build CodeNarc
 cd codenarc-converter/CodeNarc

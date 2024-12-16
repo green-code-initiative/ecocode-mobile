@@ -7,5 +7,5 @@
         EcoCode rule set.
     </description>
 
-    <rule class='org.codenarc.rule.ecocode.EC5001'/>
+    <rule class='org.codenarc.rule.ecocode.GCI5001'/>
 </ruleset>

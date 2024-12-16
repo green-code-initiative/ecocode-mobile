@@ -36,7 +36,8 @@ import java.util.List;
  * Check if a method requestLocationUpdates is called from android.location.LocationManager package.
  * If minTime argument value is 0, report an issue on the argument.
  */
-@Rule(key = "EC523")
+@Rule(key = "GCI523")
+@DeprecatedRuleKey(repositoryKey = "ecocode-android-java", ruleKey = "EC523")
 @DeprecatedRuleKey(repositoryKey = "ecoCode-java", ruleKey = "ESOB005")
 public class ThriftyGeolocationMinTimeRule extends IssuableSubscriptionVisitor {
 

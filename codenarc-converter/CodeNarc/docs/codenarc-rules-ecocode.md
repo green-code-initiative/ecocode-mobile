@@ -5,7 +5,7 @@ title: CodeNarc - Ecocode Rules
 
 # Ecocode Rules  ("*rulesets/ecocode.xml*")
 
-## EC5001 Rule
+## GCI5001 Rule
 
 *Since CodeNarc 2.2.1*
 
@@ -45,7 +45,7 @@ Example of violations:
     }
 ```
 
-## EC5003 Rule
+## GCI5003 Rule
 
 *Since CodeNarc 2.2.3*
 

@@ -166,8 +166,8 @@ ruleset {
     DuplicateStringLiteral
 
     // rulesets/ecocode.xml
-    EC5001
-    EC5003
+    GCI5001
+    GCI5003
 
     // rulesets/enhanced.xml
     CloneWithoutCloneable 

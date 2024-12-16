@@ -34,7 +34,8 @@ import java.util.Optional;
  * Check the call of the method "registerListener" of "android.hardware.SensorManager" with 4 parameters (the 4th one being the latency).
  * If it isn't present, report issue.
  */
-@Rule(key = "EC500")
+@Rule(key = "GCI500")
+@DeprecatedRuleKey(repositoryKey = "ecocode-android-java", ruleKey = "EC500")
 @DeprecatedRuleKey(repositoryKey = "ecoCode-java", ruleKey = "EBAT002")
 public class SensorCoalesceRule extends IssuableSubscriptionVisitor {
 
