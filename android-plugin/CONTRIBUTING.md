@@ -4,7 +4,7 @@ Contributing Guidelines
 Contributions are welcome!
 
 **Before spending lots of time on something, ask for feedback on your idea first.**
-Contact us at <contact@ecocode.io> to be sure that we are interested with your contribution idea.
+Contact us at <contact@green-code-initiative.org> to be sure that we are interested with your contribution idea.
 
 To avoid frustration, please discuss before submitting any contributions.
 
@@ -36,4 +36,4 @@ Choose a rule within the [table of unimplemented android-specific rules](RULES.m
 Before submitting an Android-specific SonarQube custom rule, please take a look at our [naming conventions](https://doc.rules.ecocode.io/#how-to-specify-rules). 
 
 ### Avoid doing things the hard way
-Idealy, take also a look at the [helpers fonctions](./src/main/java/io/ecocode/java/checks/helpers).
+Idealy, take also a look at the [helpers fonctions](src/main/java/org/greencodeinitiative/creedengo/java/checks/helpers).

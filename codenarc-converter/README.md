@@ -32,7 +32,7 @@ You will be asked a few questions that will modify documentation files in `[...]
 
 - `/CHANGELOG.md`: changelist.
 - `/docs/codenarc-base-messages.properties`: rules description.
-- `/docs/codenarc-rules-ecocode.md`: rules documentation.
+- `/docs/codenarc-rules-creedengo.md`: rules documentation.
 - `/src/main/resources/rulesets/ecocode.xmlecocode.xml`: rules list.
 
 and generates rule files:
